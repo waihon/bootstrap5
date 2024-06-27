@@ -8,37 +8,17 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>BootStrap Modals</title>
+    <title>Bootstrap Hide and Show Screen Size</title>
   </head>
   <body>
     <div class="container mt-3">
       <h1>Bootstrap 5.0.2</h1>
-      <h2>Modals</h2>
-      <div class="container mt-3">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-          data-bs-target="#openmodal">
-          Launch Modal
-        </button>
-
-        <div class="modal fade" id="openmodal">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1>Hello!</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal">
-                </button>
-              </div>
-              <div class="modal-body">
-                Welcome to this course!
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary">
-                  Save changes
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+      <h2>Hide and Show Screen Size</h2>
+      <div class="d-none d-md-block">
+        This text is hidden on small screens but visible on medium screens and up.
+      </div>
+      <div class="d-md-none d-block">
+        Visible on small screen.
       </div>
     </div>
 
